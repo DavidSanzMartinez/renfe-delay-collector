@@ -2,7 +2,7 @@ name: Collect Renfe Delays
 
 on:
   schedule:
-    - cron: '* * * * *'  # cada minut
+    - cron: '*/5 * * * *'  # cada 5 minuts
   workflow_dispatch:  # permet executar-lo manualment
 
 jobs:
